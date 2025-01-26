@@ -1,0 +1,23 @@
+{
+  "name": "my-math-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "daniil_shornikov-kanban0": "^1.0.0",
+    "daniil_shornikov-kanban1": "^1.0.8",
+    "daniil_shornikov-math": "^1.0.0",
+    "daniil_shornikov-my-math": "^1.0.0",
+    "daniil_shornikov-my-math-library": "^1.0.0",
+    "mysql2": "^3.12.0"
+  }
+}
