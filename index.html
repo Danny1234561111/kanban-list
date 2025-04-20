@@ -4,34 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kanban Board</title>
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/style.css"> <!-- Подключаем CSS файл -->
 </head>
 <body>
-    <div class="controls">
-      <button id="addTaskButton">Add Task</button>
-      <button id="addColumnButton">Add Column</button>
-    </div>
-     <div id="taskModal" class="modal">
-        <div class="modal-content">
-          <span class="close-button" id="closeTaskModal">&times;</span>
-           <h2>Add New Task</h2>
-             <label for="taskText">Task text:</label>
-             <input type="text" id="taskText" required>
-             <label for="taskStatus">Status:</label>
-               <select id="taskStatus" required></select>
-          <button id="confirmTaskButton">Add task</button>
-        </div>
-    </div>
-     <div id="columnModal" class="modal">
-        <div class="modal-content">
-          <span class="close-button" id="closeColumnModal">&times;</span>
-           <h2>Add New Column</h2>
-            <label for="columnText">Column text:</label>
-            <input type="text" id="columnText" required>
-           <button id="confirmColumnButton">Add column</button>
-        </div>
-    </div>
-    <div id="kanban-board"></div>
-    <script type="module" src="src/main.js"></script>
+
+                    <button id="clearStorageButton">Очистить</button>
+                    <div class="mainBlock">
+                        <div id="kanban-board2"></div>
+                    </div>
+  <script type="module" src="src/main.js"></script>
 </body>
 </html>
+
