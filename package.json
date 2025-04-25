@@ -14,7 +14,7 @@
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
     "daniil_shornikov-kanban0": "^1.0.0",
-    "daniil_shornikov-kanban1": "^1.0.12",
+    "daniil_shornikov-kanban1": "^1.0.13",
     "daniil_shornikov-math": "^1.0.0",
     "daniil_shornikov-my-math": "^1.0.0",
     "daniil_shornikov-my-math-library": "^1.0.0",

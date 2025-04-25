@@ -1,8 +1,7 @@
 import Kanban from 'daniil_shornikov-kanban1';
 
 const savedState = localStorage.getItem('kanban');
-const myKanban = savedState ? Kanban.fromJson(savedState, 'kanban-board2') : new Kanban(null, 'kanban-board2');
-
+const myKanban = savedState ? Kanban.fromJson(savedState, 'kanban-board2') : new Kanban(null, 'kanban-board2',"en");
 function saveState() {
     localStorage.setItem('kanban', myKanban.toJson());
 }
@@ -32,7 +31,7 @@ myKanban.seticonsVariables({
     url_close: 'src/close.png', 
     url_delete: 'src/close.png', 
     size_delete:"100%",
-
+    url_del_author: 'src/minus.png', 
 
 });
 myKanban.setMainCSSVariables({
